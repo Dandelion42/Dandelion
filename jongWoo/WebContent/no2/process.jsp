@@ -1,3 +1,4 @@
+<%@page import="java.net.URLEncoder"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -17,7 +18,9 @@
  	진행중
  	<%
  		session.setAttribute("address", userAddress);
- 		response.sendRedirect(kind+".jsp?name="+request.getParameter("userName"));
+ 		String URLabc = URLEncoder.encode(userName, "utf-8");
+ 		response.sendRedirect(kind+".jsp?name="+URLabc);
+ 		
  	%>
  	
 </body>
