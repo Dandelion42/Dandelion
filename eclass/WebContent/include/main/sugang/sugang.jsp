@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<img alt="150" src="images/fried.jfif">
-	<%  out.print(userName+"님 감사합니다. 주문하신 후라이드 치킨이" +session.getAttribute("address")+"로 배달중입니다."); %>	
+<h3>웹프로그래밍</h3>
+<h3>데이터베이스</h3>
+<h3>글쓰기</h3>
+<h3>한국근현대사</h3>
+<h3>글쓰기</h3>
 </body>
 </html>

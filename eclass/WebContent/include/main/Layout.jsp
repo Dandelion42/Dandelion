@@ -9,12 +9,25 @@
 <body>
 	<table border="2">
 	<tr>
-		<td>
+		<td colspan="3">
 		
+		<jsp:include page="Logo.jsp"/>
 		</td>
 	</tr>
 	<tr>
 		<td>
+		
+			<jsp:include page="../menu.jsp"/>
+			
+		</td>
+		<td>
+		
+			<jsp:include page="../contents/calendar.jsp"/>
+		
+		</td>
+		<td>
+		
+			<jsp:include page="../../include/main/sugang/sugang.jsp"/>
 		
 		</td>
 	</tr>
