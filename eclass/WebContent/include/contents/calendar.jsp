@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<%
+	for(int j=1;j<32;j++){
+		out.print("");
+	}
+	
+	%>
 </body>
 </html>
